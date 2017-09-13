@@ -3,141 +3,168 @@
 body{
 
 text-align:left;
-background:url(images/Sky.jpg) top center repeat-y;
-background-color:#33333;
-font-family:arial;
-color:#000000;
+background:url(images/whitebackgrnd.jpeg) top left no-repeat;
+font-family:Sofia Pro;
+color:orange;
 line-height:1.5em;
 font-size:15px;
-
+width: 100%;
+max-width: 960px;
+margin: 0 auto
 }
 
-a:link, a:visited{
-color:#034f84;
+.pageheading{
+margin:auto;
+text-align: left;
+width:800px;
+padding-left:0px;
+text-transform: uppercase;
+}
 
+
+
+a:link, a:visited{
+color: 
 }
 
 a:hover {
-color:#ffef96;
-
+color: orange;
 }
 
 .wrapper{
 
 margin:auto;
-width: 778px;
+width:800px;
 text-align:left;
-padding-left:1px;
+padding-left:0px;
 
 }
-
-
+.navigation{
+margin:left;
+width:800px;
+text-align:left;
+padding-left: 1px;
+}
 /* ......................................Top Nav........................................................... */
 
 
 .nav {
-
+margin: 20px 37px;
 margin-bottom:0;
-padding:0;
-
-
+padding:2px;
+list-style:none;
+height:60px;
+width: 100%;
 }
 
-
 .ul menu{
-
+display:block;
+width: 100%;
 margin:0;
 padding:0;
 list-style-type:none;
-position:relative;
-display:block;
-height:40px;
-font-size:13px;
+height:30px;
+font-size:15px;
 font-weight:bold;
-background-color:#333333;
+background-color: #9E9E9E;
 
 }
-
-
 
 .menu li{
 display:block;
 float:left;
 margin:0;
 padding:0;
-
+width:20%;
 }
-
 
 
 .menu li a{
-
 display:block;
-float:left;
-color:#000000;
+width: 50%;
+color: #212121;
 text-decoration:none;
 font-weight:bold;
-padding:10px 30px 0 20px;
 height:30px;
-margin:0;
-border-right:none #484f4f;
-
+border-right:none;
 }
-
 
 /*-- this is the colour once you hover over the menu--*/
 
 .menu li a:hover{
-
-background-color:#f2e394
-
+opacity: 0.9;
+color:orange;
 }
-
-
-
 /* ......................................Content........................................................... */
 
 
 .line{
-
-border-top: 1px dashed #f2e394;
-
+border-top: 1px dashed  #BDBDBD;
 }
 
 h1 {
-
-color:#000000;
-background:url(images/.jpg) top left no-repeat;
-padding-top:0px;
+text-shadow:2px -1px #9E9E9E;
+color:#212121;   
+padding-top:15px;
 height: 15px;
-font-size:30px;
-letter-spacing:3px;
-margin:40px 0 20px 0;
+font-size:45px;
+letter-spacing:2px;
+margin:20px 0 20px 0;
+
 }
 
 h2 {
-
-color:#000000;
+color: #757575; 
 padding-top:5px;
 font-size: 20px;
-letter-spacing:3px;
+letter-spacing:2px;
 
 }
 
+h3{
+color: #757575; 
+font-size: 20px;
+letter-spacing:2px;
+
+}
+p{
+text-align: justify;  
+ -moz-text-align-last: right; /* Code for Firefox */
+text-align-last: right;
+}
 
 .content{
-width:780px;
+width:800px;
 text-align:left;
+
+}
+/* Facebook Icon */
+.fa {
+padding:0px;
+font-size:30px;
+width:0px;
+text-align:center;
+text-decoration: none;
 }
 
+/* hover  for facebook */
 
+.fa:hover {
+    opacity: 0.3;
+}
+#map{
+width:600px;
+height:400px;
+margin:auto;
+}
 .clear{
 clear:both;
 }
 
 .footer {
-bottom:0
-height:60px;
+height:40px;
 text-align:center;
-font-size: 8px;
+font-size:10px;
+padding:0px;
+color:black;  
 }

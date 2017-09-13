@@ -5,50 +5,71 @@
 <title>St.MORITZ</title>
 
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-
 <link rel="stylesheet" type="text/css"  href="style.css" />
+<link rel="shortcut icon" href="images/title.jpg" />
 
 </head>
-
 <body>
-
-  <div class="wrapper">
-    <div class="nav">
+  <div class="pageheading">
       <h1>About</h1>
-      <h2>LIFE COACH Emotional and Physical Wellness</h2>
-    </br>
-    <ul class="menu">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="About.html">About</a></li>
-      <li><a href="Portfolio.html">Portfolio</a></li>
-      <li><a href="Contact us.html">Contact us</a></li>
-    </ul>
-  </br>
+      <h2>LIFE COACH | Emotional and Physical Wellness</h2>
   </div>
-</br>
-</br>
-<div class="line"></div>
-  <div class="About">
-    <h2>Content</h2>
-    <p>FITNESS LIFE COACH - A PLACE TO CONNECT AND COMMIT TO #HIKE TO HEAL - TOWARDS A POSITIVE CHANGE. PREPARATION AND GUIDANCE FOR PLANNING A HIKING ADVENTURE - 'THE CAMINO DE SANTIAGO'</p>
+  <div class="navigation">
+        <div class="nav">
+              
+                  <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Portfolio.html">Portfolio</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                  </ul>
+              </div>
+        </div>
+
+<div class="wrapper">
+<div class="content">
+
+    <h3>The Journey</h3>
+    <p>'God of life and love, thank you for the companionship, beauty, mystery and the kindness of strangers we experienced along the Camino. You have filled our hearts with wonder, joy and gladness! May we take the Camino to the world!' This beautiful message I received in 2015 written on a card given to me by a stranger outside the pilgrims office in Santiago de Compostela -</p>
+    
     <div class="line"></div>
-    <h2>Costs</h2>
-    <p>R450 p/h</p>
-    <div class="line"></div>
-    <h2>Affiliated Text Here</h2>
-    <p>Text Here</p>
-    <div class="footer"></div>
-    <p></p>
+
+    <h3>Affiliated Text Here</h3>
+    <p>From all the standpoint of everyday life, there is one thing we do know: that man is here for the sake of other men- above all, for those upon whose smile and well-being our own happiness depends, and also for the countless unknown souls with whose fate we are connected by a bond of sympathy. Many times a day I realize how much my own outer and inner life is built upon the labors of my fellow men, both living and dead, and how earnestly I must exert myself in order to give in return as much as I have received. (Albert Einstein)</p>
     <p>&nbsp;</p>
   </div>
     <div class="line"></div>
 </br>
-    <footer>
-  <div class="footer">
-    <p>Created by: James Costaras 2017/09/06</p>
-    <img src="images/copyright.png" alt="copyright" style="width:25px;height:25px;"/>
-  </footer>
-
+<footer>
+<div class="footer">
+<script type="text/javascript">
+  tday=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
+  tmonth=new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+  
+  function GetClock(){
+  var d=new Date();
+  var nday=d.getDay(),nmonth=d.getMonth(),ndate=d.getDate(),nyear=d.getFullYear();
+  var nhour=d.getHours(),nmin=d.getMinutes(),nsec=d.getSeconds(),ap;
+  
+  if(nhour==0){ap=" AM";nhour=12;}
+  else if(nhour<12){ap=" AM";}
+  else if(nhour==12){ap=" PM";}
+  else if(nhour>12){ap=" PM";nhour-=12;}
+  
+  if(nmin<=9) nmin="0"+nmin;
+  if(nsec<=9) nsec="0"+nsec;
+  
+  document.getElementById('clockbox').innerHTML=""+tday[nday]+", "+tmonth[nmonth]+" "+ndate+", "+nyear+" "+nhour+":"+nmin+":"+nsec+ap+"";
+  }
+  
+  window.onload=function(){
+  GetClock();
+  setInterval(GetClock,1000);
+  }
+  </script>
+  <div id="clockbox"></div>
+  <h9>Created by: James Costaras 2017/09/06</h9>
+</footer>
 </div>
 </div>
 </body>
