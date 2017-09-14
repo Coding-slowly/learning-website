@@ -2,102 +2,107 @@
 <html>
 
 <head>
-<title>St.MORITZ</title>
+  <title>St.MORITZ</title>
 
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<link rel="stylesheet" type="text/css"  href="style.css" />
-<link rel="shortcut icon" href="images/title.jpg" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="shortcut icon" href="images/title.jpg" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
 </head>
+
 <body>
-    <div class="pageheading">
+  <div class="pageheading">
     <h1>Contact</h1>
     <h2>LIFE COACH | Emotional and Physical Wellness</h2>
   </div>
   <div class="navigation">
-      <div class="nav">
-          
-              <ul class="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="About.html">About</a></li>
-                <li><a href="Portfolio.html">Portfolio</a></li>
-                <li><a href="Contact.html">Contact</a></li>
-              </ul>
-          </div>
+    <div class="nav">
+
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Portfolio.html">Portfolio</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
     </div>
+  </div>
 
-  <div class="wrapper">      
-  <div class="content">
+  <div class="wrapper">
+    <div class="content">
 
-<h3>Contact us on the following</h3>
-<a href="tel:+27 (0)73 633 6622">Call</a>
-</br>
-<a href="mailto:hiketoheal@stmoritz.co.za" target="_top">Email</a>
-</br>
-<a href="https://www.facebook.com/stmoritzhiketoheal/?ref=br_rs" class="fa fa-facebook" target="_blank"></a>
-<div class="line"></div>
-</br>
-</div>
-    <h3>Location</h3> 
-  <div id="map">
-    <script>
-      function myMap() {
-    var mapOptions = {
-        center: new google.maps.LatLng(-33.798978, 18.951463),
-        zoom: 10,
-        mapTypeId: google.maps.MapTypeId.HYBRID
-    }
-var map = new google.maps.Map(document.getElementById("map"), mapOptions);
-var markerPos = new google.maps.LatLng(-33.798978, 18.951463);
-var marker = new google.maps.Marker({
-   position: markerPos,
-   map: map,
-   title: "PC Pro Offices"
-});
-}
-  </script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVqMquh66Qd0xEMVA9rbxhoD0gMxRmJ8g&callback=myMap"></script>
-</div>
+      <h3>Contact us on the following</h3>
+
+      <a href="tel:+27 (0)73 633 6622">Call</a>
+      </br>
+      <a href="mailto:hiketoheal@stmoritz.co.za" target="_top">Email</a>
+      </br>
+      <a href="https://www.facebook.com/stmoritzhiketoheal/?ref=br_rs" class="fa fa-facebook" target="_blank"></a>
+      <div class="line"></div>
+      </br>
+    </div>
+    <h3>Location</h3>
+
+    <div id="map">
+      <script>
+        function myMap() {
+          var mapOptions = {
+            center: new google.maps.LatLng(-33.798978, 18.951463),
+            zoom: 10,
+            mapTypeId: google.maps.MapTypeId.HYBRID
+          }
+          var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+          var markerPos = new google.maps.LatLng(-33.798978, 18.951463);
+          var marker = new google.maps.Marker({
+            position: markerPos,
+            map: map,
+            title: "PC Pro Offices"
+          });
+        }
+      </script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVqMquh66Qd0xEMVA9rbxhoD0gMxRmJ8g&callback=myMap"></script>
+    </div>
     <p>&nbsp;</p>
 
     <div class="line"></div>
-</br>
+    </br>
 
-<footer>
-    <div class="footer">
+    <footer>
+      <div class="footer">
         <script type="text/javascript">
-          tday=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
-          tmonth=new Array("January","February","March","April","May","June","July","August","September","October","November","December");
-          
-          function GetClock(){
-          var d=new Date();
-          var nday=d.getDay(),nmonth=d.getMonth(),ndate=d.getDate(),nyear=d.getFullYear();
-          var nhour=d.getHours(),nmin=d.getMinutes(),nsec=d.getSeconds(),ap;
-          
-          if(nhour==0){ap=" AM";nhour=12;}
-          else if(nhour<12){ap=" AM";}
-          else if(nhour==12){ap=" PM";}
-          else if(nhour>12){ap=" PM";nhour-=12;}
-          
-          if(nmin<=9) nmin="0"+nmin;
-          if(nsec<=9) nsec="0"+nsec;
-          
-          document.getElementById('clockbox').innerHTML=""+tday[nday]+", "+tmonth[nmonth]+" "+ndate+", "+nyear+" "+nhour+":"+nmin+":"+nsec+ap+"";
-          }
-          
-          window.onload=function(){
-          GetClock();
-          setInterval(GetClock,1000);
-          }
-          </script>
-          <div id="clockbox"></div>
+          tday = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
+          tmonth = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
 
-          <h9>Created by: James Costaras 2017/09/06</h9>  
- 
+          function GetClock() {
+            var d = new Date();
+            var nday = d.getDay(), nmonth = d.getMonth(), ndate = d.getDate(), nyear = d.getFullYear();
+            var nhour = d.getHours(), nmin = d.getMinutes(), nsec = d.getSeconds(), ap;
+
+            if (nhour == 0) { ap = " AM"; nhour = 12; }
+            else if (nhour < 12) { ap = " AM"; }
+            else if (nhour == 12) { ap = " PM"; }
+            else if (nhour > 12) { ap = " PM"; nhour -= 12; }
+
+            if (nmin <= 9) nmin = "0" + nmin;
+            if (nsec <= 9) nsec = "0" + nsec;
+
+            document.getElementById('clockbox').innerHTML = "" + tday[nday] + ", " + tmonth[nmonth] + " " + ndate + ", " + nyear + " " + nhour + ":" + nmin + ":" + nsec + ap + "";
+          }
+
+          window.onload = function () {
+            GetClock();
+            setInterval(GetClock, 1000);
+          }
+        </script>
+        <div id="clockbox"></div>
+
+        <h9>Created by: James Costaras 2017/09/06</h9>
     </footer>
-</div>
-</div>
+
+    </div>
+  </div>
 </body>
+
 </html>
